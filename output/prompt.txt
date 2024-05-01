@@ -1,0 +1,84 @@
+
+        The dataset has field in tables as follows:
+                    Unnamed: 0                                                table                           field       type                                                                         description
+0            0  query-assistant.Public_Dataset.distribution_centers                              id    INTEGER                       The list of distribution centers associated with the property
+1            1  query-assistant.Public_Dataset.distribution_centers                            name     STRING                                                        List of distribution centers
+2            2  query-assistant.Public_Dataset.distribution_centers                        latitude      FLOAT                                             The latitude of the distribution center
+3            3  query-assistant.Public_Dataset.distribution_centers                       longitude      FLOAT                                            The longitude of the distribution center
+4            4                query-assistant.Public_Dataset.events                              id    INTEGER                                    The unique identifier of the table in the system
+5            5                query-assistant.Public_Dataset.events                         user_id    INTEGER                                     The unique identifier of the user in the system
+6            6                query-assistant.Public_Dataset.events                 sequence_number    INTEGER               A sequence of numbers that uniquely identifies each event in a table.
+7            7                query-assistant.Public_Dataset.events                      session_id     STRING                                          The unique identifier of the table session
+8            8                query-assistant.Public_Dataset.events                      created_at  TIMESTAMP                                    The date and time at which the table was created
+9            9                query-assistant.Public_Dataset.events                      ip_address     STRING                                                  A representation of an IP address.
+10          10                query-assistant.Public_Dataset.events                            city     STRING                                     The name of the city where the table is located
+11          11                query-assistant.Public_Dataset.events                           state     STRING                                                               Events of table state
+12          12                query-assistant.Public_Dataset.events                     postal_code     STRING                                                     The postal code of the address.
+13          13                query-assistant.Public_Dataset.events                         browser     STRING                               The list of events that occurred on the table browser
+14          14                query-assistant.Public_Dataset.events                  traffic_source     STRING            The source of the traffic, such as Adwords, YouTube, or other campaigns.
+15          15                query-assistant.Public_Dataset.events                             uri     STRING                                                                 Events of table uri
+16          16                query-assistant.Public_Dataset.events                      event_type     STRING                                                Possible values for table event_type
+17          17       query-assistant.Public_Dataset.inventory_items                              id    INTEGER                           The unique identifier of the inventory item in the system
+18          18       query-assistant.Public_Dataset.inventory_items                      product_id    INTEGER                                 The list of inventory items related to the product.
+19          19       query-assistant.Public_Dataset.inventory_items                      created_at  TIMESTAMP                     Timestamp of when the inventory items was created in the system
+20          20       query-assistant.Public_Dataset.inventory_items                         sold_at  TIMESTAMP                                                           The timestamp of the sale
+21          21       query-assistant.Public_Dataset.inventory_items                            cost      FLOAT                                                       The dollar value of the item.
+22          22       query-assistant.Public_Dataset.inventory_items                product_category     STRING                      A list of inventory items associated with the product category
+23          23       query-assistant.Public_Dataset.inventory_items                    product_name     STRING                                            List of inventory items for the product.
+24          24       query-assistant.Public_Dataset.inventory_items                   product_brand     STRING                                                       The name of the product brand
+25          25       query-assistant.Public_Dataset.inventory_items            product_retail_price      FLOAT                                     The inventory items associated with the product
+26          26       query-assistant.Public_Dataset.inventory_items              product_department     STRING  The list of property values for inventory_items column in product_department table
+27          27       query-assistant.Public_Dataset.inventory_items                     product_sku     STRING                                          The unique identifier for inventory items.
+28          28       query-assistant.Public_Dataset.inventory_items  product_distribution_center_id    INTEGER                                    Product distribution center ids for this product
+29          29           query-assistant.Public_Dataset.order_items                              id    INTEGER                                The unique identifier of the order item in the table
+30          30           query-assistant.Public_Dataset.order_items                        order_id    INTEGER                                              Order items associated with the order.
+31          31           query-assistant.Public_Dataset.order_items                         user_id    INTEGER                                           The order items associated with the user.
+32          32           query-assistant.Public_Dataset.order_items                      product_id    INTEGER                                  Unique identifiers of the product within the order
+33          33           query-assistant.Public_Dataset.order_items               inventory_item_id    INTEGER                          The unique identifier of the inventory item in the system.
+34          34           query-assistant.Public_Dataset.order_items                          status     STRING                                     Indicates the status of each item in the order.
+35          35           query-assistant.Public_Dataset.order_items                      created_at  TIMESTAMP                                   The date and time when the order item was created
+36          36           query-assistant.Public_Dataset.order_items                      shipped_at  TIMESTAMP        The date and time when the order items in the shipped_at table were shipped.
+37          37           query-assistant.Public_Dataset.order_items                    delivered_at  TIMESTAMP                                                       Time when order was delivered
+38          38           query-assistant.Public_Dataset.order_items                     returned_at  TIMESTAMP                                       The timestamp for when the item was returned.
+39          39           query-assistant.Public_Dataset.order_items                      sale_price      FLOAT                                                 Order items of the sale price table
+40          40                query-assistant.Public_Dataset.orders                        order_id    INTEGER                                    The unique identifier of the table in the system
+41          41                query-assistant.Public_Dataset.orders                         user_id    INTEGER                                     The unique identifier of the user in the system
+42          42                query-assistant.Public_Dataset.orders                          status     STRING                                                  Enumeration of table status values
+43          43                query-assistant.Public_Dataset.orders                          gender     STRING                                                     The gender of the table columns
+44          44                query-assistant.Public_Dataset.orders                      created_at  TIMESTAMP                                  Orders of the date and time the table was created.
+45          45                query-assistant.Public_Dataset.orders                     returned_at  TIMESTAMP                                                       The time a table was returned
+46          46                query-assistant.Public_Dataset.orders                      shipped_at  TIMESTAMP                                                 The time when the table was shipped
+47          47                query-assistant.Public_Dataset.orders                    delivered_at  TIMESTAMP                                      The date and time when the table was delivered
+48          48                query-assistant.Public_Dataset.orders                     num_of_item    INTEGER                                                The number of items ordered by table
+49          49              query-assistant.Public_Dataset.products                              id    INTEGER                                     Unique identifier of the property in the system
+50          50              query-assistant.Public_Dataset.products                            cost      FLOAT                                                              Products of table cost
+51          51              query-assistant.Public_Dataset.products                        category     STRING                                                          Products of table category
+52          52              query-assistant.Public_Dataset.products                            name     STRING                                               The properties of products in a table
+53          53              query-assistant.Public_Dataset.products                           brand     STRING                                                              The brand of the table
+54          54              query-assistant.Public_Dataset.products                    retail_price      FLOAT                                          The price of a product in the retail store
+55          55              query-assistant.Public_Dataset.products                      department     STRING                            The name of the line of products in the table department
+56          56              query-assistant.Public_Dataset.products                             sku     STRING                                  The unique identifier of the product in the system
+57          57              query-assistant.Public_Dataset.products          distribution_center_id    INTEGER                                    The unique identifier of the distribution center
+58          58                 query-assistant.Public_Dataset.users                              id    INTEGER                                        Unique identifier of the user in the system.
+59          59                 query-assistant.Public_Dataset.users                      first_name     STRING                                                          The first name of the user
+60          60                 query-assistant.Public_Dataset.users                       last_name     STRING                                                          The last name of the user.
+61          61                 query-assistant.Public_Dataset.users                           email     STRING                                                      The email address of the user.
+62          62                 query-assistant.Public_Dataset.users                             age    INTEGER                                                                     Age of the user
+63          63                 query-assistant.Public_Dataset.users                          gender     STRING                              Gender of the users in the system (example value: M,M)
+64          64                 query-assistant.Public_Dataset.users                           state     STRING                                Property that delineates the user of the table state
+65          65                 query-assistant.Public_Dataset.users                  street_address     STRING                                                The physical address of the property
+66          66                 query-assistant.Public_Dataset.users                     postal_code     STRING                                                     The postal code of the address.
+67          67                 query-assistant.Public_Dataset.users                            city     STRING                                                            User's city of residence
+68          68                 query-assistant.Public_Dataset.users                         country     STRING                                               The country where the user is located
+69          69                 query-assistant.Public_Dataset.users                        latitude      FLOAT                                                        The latitude of the property
+70          70                 query-assistant.Public_Dataset.users                       longitude      FLOAT                                                       The longitude of the property
+71          71                 query-assistant.Public_Dataset.users                  traffic_source     STRING                      The source of the traffic, such as Search, Direct, or Referral
+72          72                 query-assistant.Public_Dataset.users                      created_at  TIMESTAMP                                            The timestamp when the table was created
+        Avoid performing FULL JOIN and INNER JOIN
+        You should generated query that is similar to Reference Query:
+                Request: []
+                Correct query: []
+            
+            Given the data information above, generate a SQL query in Google Big Query only that: 
+            Retention Rate
+        

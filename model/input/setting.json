@@ -1,0 +1,21 @@
+{
+    "sql_system": "Google Big Query",
+    "project_id": "query-assistant",
+    "llm_configuration": {
+        "max_token": 400,
+        "temperature": 0.1
+    },
+    "gcp_service_account_path": "model/credentials/query-assistant.json",
+    "docs": "model/docs.md"
+    , "pricing":{
+        "GCP Codey": {
+            "input":0.000000125,
+            "output":0.0000005
+        }
+        ,
+        "Gemini-Pro": {
+            "input":0,
+            "output":0
+        }
+    }
+}

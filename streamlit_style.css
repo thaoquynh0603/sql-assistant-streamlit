@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sedan:ital@0;1&display=swap');
+
+:root {
+    --primaryColor:#cfb700;
+    --backgroundColor:#f8f6f2;
+    --secondaryBackgroundColor:#edeae1;
+    --textColor:#262730;
+  }
+
+body * {
+    font-family: 'Roboto', sans-serif !important;
+}
+
+button[data-testid="baseButton-secondary"] {
+    width: 100%;
+    background: var(--primaryColor);
+    color: var(--backgroundColor)
+}
+
+button[data-testid="baseButton-secondary"]:hover {
+    font-weight: 700;
+    color: var(--backgroundColor);
+    opacity:0.8
+}
+
+button[data-testid="baseButton-secondary"]:focus:not(:active) {
+    font-weight: 700;
+    color: var(--backgroundColor)
+}
