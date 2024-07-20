@@ -1,6 +1,3 @@
-Here's a detailed GitHub README for your app, SQLBot:
-
----
 
 # SQLBot
 
