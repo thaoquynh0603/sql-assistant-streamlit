@@ -11,7 +11,6 @@ Demo Video: https://youtu.be/kBhp6QGMLbQ
 - [Configuration](#configuration)
 - [Example](#example)
 - [Validation](#validation)
-- [License](#license)
 - [Contributing](#contributing)
 
 ## Features
@@ -65,11 +64,6 @@ Demo Video: https://youtu.be/kBhp6QGMLbQ
    - Null value checks
    - Value range checks
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Contributing
-We welcome contributions! Please see the [CONTRIBUTING](CONTRIBUTING.md) guidelines for more information.
 
 ---
 
