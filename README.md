@@ -2,6 +2,7 @@
 # SQLBot
 
 SQLBot is an AI-powered tool designed to help your data team generate SQL queries quickly and efficiently. This bot integrates seamlessly with your database, making data analysis a breeze.
+Demo Video: https://youtu.be/kBhp6QGMLbQ
 
 ## Table of Contents
 - [Features](#features)
